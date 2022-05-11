@@ -1,0 +1,108 @@
+.top-border {
+	width: 100%;
+	height: 80px;
+	font-size: 35px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+	line-height: 26px;
+	border: solid transparent;
+	color: black;
+	background: #f5df4d;
+	background-color: #f5df4d;
+	display: flex;
+	justify-content: center;
+}
+.modal-container {
+	min-width: 550px;
+
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #ffffff;
+	box-shadow: 0 0 10px #fdf2f0;
+}
+.content {
+	width: 100%;
+	display: flex;
+	font-size: 25px;
+	justify-content: center;
+	align-items: center;
+	max-height: unset;
+	overflow: auto;
+	max-width: 700px;
+}
+.footer {
+	margin-top: 100px;
+	width: 100%;
+	height: 80px;
+	font-size: 35px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	line-height: 26px;
+	border: solid transparent;
+	color: black;
+	background: #f5df4d;
+	background-color: #f5df4d;
+	display: flex;
+	justify-content: flex-end;
+}
+.cancle-button {
+	max-width: 240px;
+	color: black;
+	width: 100px;
+	border: 2px solid black;
+	background-color: #ffffff;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.remove-button {
+	margin-left: 10px;
+	color: black;
+	width: 100px;
+	font-size: 20px;
+	border: 2px solid black;
+	background-color: #cd212a;
+}
+.remove-button :hover {
+	color: black;
+	border: 2px solid black;
+	background-color: #f5df4d;
+	background: #ffffff;
+}
+.cancle-button:hover {
+	color: black;
+	border: 2px solid black;
+	background-color: #f5df4d;
+}
+
+@media screen and (max-width: 1169px) {
+	.modal-container {
+		left: 0;
+		bottom: 0;
+		top: 0;
+		right: 0;
+		transform: unset;
+		margin: 15px;
+		min-width: unset;
+		min-height: unset;
+	}
+	.content {
+		height: calc(100%-220px);
+		max-height: unset;
+	}
+}
+@media screen and (max-width: 743px) {
+	.modal-container {
+		margin: 0;
+	}
+}
+@media screen and (max-width: 743px) {
+	.modal-container {
+		left: 0;
+		min-width: 100%;
+	}
+}

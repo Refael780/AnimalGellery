@@ -1,0 +1,53 @@
+.device-card-col {
+}
+
+.device-card {
+	width: 16rem;
+	text-align: center;
+	box-shadow: 0px 1px 1px 0px rgb(0 0 0 / 75%), 0px 1px 1px 2px rgb(245 223 77 / 80%),
+		0px 1px 3px 0px rgb(245 223 77 / 75%) !important;
+}
+.animal-name-cont{
+	margin-bottom: 10px
+}
+
+.device-card-content {
+	height: auto;
+}
+.animal-name {
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+.remove-animal-button {
+	color: white;
+	background: #cd212a;
+	background-color: #cd212a;
+}
+.edit-animal-button {
+	color: white;
+	background: #34568b;
+	background-color: #34568b;
+}
+.device-card-img {
+	width: auto !important;
+	height: 15vw;
+	max-height: auto;
+	background-size: contain !important;
+}
+
+.MuiPaper-root
+	MuiPaper-elevation
+	MuiPaper-rounded
+	MuiPaper-elevation1
+	MuiCard-root
+	device-card
+	css-bhp9pd-MuiPaper-root-MuiCard-root {
+	background-color: #fff;
+	color: rgba(0, 0, 0, 0.87);
+	-webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+	transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+	border-radius: 4px;
+	box-shadow: 0px 2px 1px -1px rgb(245 223 77 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%),
+		0px 1px 3px 0px rgb(0 0 0 / 12%);
+	overflow: hidden;
+}
